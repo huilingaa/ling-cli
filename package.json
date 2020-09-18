@@ -1,0 +1,16 @@
+{
+  "name": "ling",
+  "version": "1.0.0",
+  "description": "自我定义的私有脚手架\r <img src='cli.png' />",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- --watch"
+  },
+  "bin": {
+    "little-bird-cli": "./bin/cmd",
+    "lb-cli": "./bin/cmd",
+    "lbc": "./bin/cmd"
+  },
+  "license": "ISC"
+}
